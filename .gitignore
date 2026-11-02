@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+.venv/
+venv/
+
+# RepoPilot output
+.repopilot-reports/
+audit-output/
+
+# Local environment and key material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
